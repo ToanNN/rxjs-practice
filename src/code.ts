@@ -1,5 +1,5 @@
 import { Observable } from 'rxjs';
-
+import './operators';
 var observable = Observable.create((subscriber: any) => {
   try {
     subscriber.next(100);
@@ -13,7 +13,7 @@ var observable = Observable.create((subscriber: any) => {
   }
 });
 
-var subscription = observable.subscribe((next: number) => console.log(next));
+var subscription = observable.subscribe((next: any) => console.log(next));
 console.log('After subscription');
 
 subscription.unsubscribe();
