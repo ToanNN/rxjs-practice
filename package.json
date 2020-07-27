@@ -1,14 +1,20 @@
 {
-  "name": "practicerxjs",
+  "name": "PracticeRxJs",
   "version": "1.0.0",
-  "description": "This is my practice on RxJs",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Toan Nguyen",
-  "license": "ISC",
+  "author": "Toan Nguyen <toan.1aus@gmail.com>",
+  "license": "MIT",
   "dependencies": {
-    "rxjs": "^6.6.0"
+    "rxjs": "^6.6.0",
+    "ts-loader": "^8.0.1",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development"
   }
 }
