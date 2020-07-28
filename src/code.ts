@@ -1,6 +1,5 @@
 import { Observable } from 'rxjs';
-import './operators';
-import './creationOperators.ts';
+
 var observable = Observable.create((subscriber: any) => {
   try {
     subscriber.next(100);
@@ -18,3 +17,9 @@ var subscription = observable.subscribe((next: any) => console.log(next));
 console.log('After subscription');
 
 subscription.unsubscribe();
+
+import './operators';
+import './creationOperators.ts';
+
+console.log('JOIN OPERATORS');
+import './joinOperators.ts';
