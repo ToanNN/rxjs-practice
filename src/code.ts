@@ -23,3 +23,5 @@ import './creationOperators.ts';
 
 console.log('JOIN OPERATORS');
 import './joinOperators.ts';
+
+import './usingThis';

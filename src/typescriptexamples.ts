@@ -39,3 +39,25 @@ class AddNumbers {
 }
 
 new AddNumbers(3).add(2).print();
+
+//Class
+class Vendor {
+  name: string;
+  constructor(name: string) {
+    this.name = name;
+  }
+  greet() {
+    return 'Hello, welcome to ' + this.name;
+  }
+}
+
+class FoodTruck extends Vendor {
+  cuisine: string;
+  constructor(name: string, cuisine: string) {
+    super(name);
+    this.cuisine = cuisine;
+  }
+  greet(): string {
+    return `Welcome to ${name}, and we serve ${this.cuisine} today`;
+  }
+}
