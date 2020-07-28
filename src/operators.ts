@@ -5,3 +5,5 @@ map((x: number) => x * x)(of(1, 2, 3)).subscribe((v) =>
   console.log(`Value ${v}`)
 );
 first()(of(1, 2, 3)).subscribe((v: number) => console.log(`value: ${v}`));
+
+
