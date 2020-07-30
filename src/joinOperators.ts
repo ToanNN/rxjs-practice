@@ -19,7 +19,7 @@ bodyMassIndex.subscribe((x) => console.log(`Body mass index ${x}`));
 //concat creates an output Observable which sequentially emits all values from given Observable and then moves on to
 // the next
 
-//forkJoin - dictionary
+//forkJoin - dictionary - join the last elements of completed observables
 const forkJoinDictionary = forkJoin({
   numbers: of(1, 3, 5, 7, 9),
   promise: Promise.resolve(100),
@@ -30,7 +30,7 @@ forkJoinDictionary.subscribe({
   next: (val) => console.log(val),
   complete: () => console.log('The end'),
 });
-// { numbers: 4, promise: 8, timerVal: 0 } after 4 seconds
+// { numbers: 9, promise: 100, timerVal: 0 } after 4 seconds
 
 const numbers = of(1, 2, 3, 4, 5, 7);
 
