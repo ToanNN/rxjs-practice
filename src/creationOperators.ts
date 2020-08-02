@@ -59,7 +59,6 @@ runIfYouHaveAccess.subscribe(
 );
 
 accessGranted = false;
-accessGranted = true;
 runIfYouHaveAccess.subscribe(
   (value) => console.log(value),
   (err) => {},
