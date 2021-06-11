@@ -18,12 +18,12 @@ console.log('After subscription');
 
 subscription.unsubscribe();
 
-import './operators';
-import './creationOperators.ts';
+// import './operators';
+// import './creationOperators.ts';
 
-console.log('JOIN OPERATORS');
-import './joinOperators.ts';
+// console.log('JOIN OPERATORS');
+// import './joinOperators.ts';
 
-import './usingThis';
+// import './usingThis';
 
 import './transformationOperators.ts';

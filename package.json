@@ -5,11 +5,11 @@
   "author": "Toan Nguyen <toan.1aus@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "rxjs": "^6.6.0",
-    "ts-loader": "^8.0.1",
-    "typescript": "^3.9.7",
-    "webpack": "^4.44.0",
-    "webpack-dev-server": "^3.11.0"
+    "rxjs": "^6.6.7",
+    "ts-loader": "^8.3.0",
+    "typescript": "^3.9.9",
+    "webpack": "^5.38.1",
+    "webpack-dev-server": "^3.11.2"
   },
   "devDependencies": {
     "webpack-cli": "^3.3.12"
