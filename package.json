@@ -1,20 +1,22 @@
 {
-  "name": "PracticeRxJs",
+  "name": "practice-rxjs",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
   "author": "Toan Nguyen <toan.1aus@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "rxjs": "^6.6.7",
-    "ts-loader": "^8.3.0",
-    "typescript": "^3.9.9",
-    "webpack": "^5.38.1",
-    "webpack-dev-server": "^3.11.2"
+    "rxjs": "^7.5.2",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.4"
+  },
+  "scripts": {   
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.12"
-  },
-  "scripts": {
-    "start": "webpack-dev-server --mode development"
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
   }
 }

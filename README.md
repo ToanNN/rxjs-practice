@@ -1,4 +1,7 @@
-## This is personal ground to practice RXJS functionalities
+## This is personal ground to practice RXJS functionalities.
+
+To install packages run 'npm install'
 
 ### To run the project, please run
-yarn run start
+
+npm run start

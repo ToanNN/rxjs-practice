@@ -27,3 +27,5 @@ subscription.unsubscribe();
 // import './usingThis';
 
 import './transformationOperators.ts';
+
+console.log("Hello world");
