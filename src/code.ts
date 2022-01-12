@@ -13,8 +13,8 @@ var observable = Observable.create((subscriber: any) => {
   }
 });
 
-var subscription = observable.subscribe((next: any) => console.log(next));
-console.log('After subscription');
+var subscription = observable.subscribe((next: any) => console.log("subscriber: " + next));
+
 
 subscription.unsubscribe();
 
@@ -26,6 +26,6 @@ subscription.unsubscribe();
 
 // import './usingThis';
 
-import './transformationOperators.ts';
+//import './transformationOperators.ts';
+import './operators';
 
-console.log("Hello world");
